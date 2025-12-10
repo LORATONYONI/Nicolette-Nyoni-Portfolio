@@ -218,9 +218,10 @@
             <span>Location: Harare · Open to remote work · Relocation Ready </span>
           </div>
         </div>
-        <form class="card form" action="https://formsubmit.co/loratonicolettenyoni@gmail.com" method="POST">
+        <form class="card form" action="https://formsubmit.co/c464bc402e0891f499b090e7dcbcb9a9" method="POST">
           <input type="hidden" name="_subject" value="New portfolio message">
           <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://loratonyoni.github.io/Nicolette-Nyoni-Portfolio/index.html?submitted=1">
           <label>
             Full name
             <input type="text" name="name" placeholder="Your name" required>
@@ -235,6 +236,9 @@
           </label>
           <button class="btn primary" type="submit">Send message</button>
           <p class="form__note">Powered by FormSubmit — messages go directly to my inbox.</p>
+          <div id="form-success" class="alert success" role="status" aria-live="polite" hidden>
+            Thank you! Your message has been sent to Nicolette Lorato Nyoni.
+          </div>
         </form>
       </div>
     </section>
@@ -257,6 +261,17 @@
       </a>
     </div>
   </footer>
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('submitted') === '1') {
+        const success = document.getElementById('form-success');
+        if (success) {
+          success.hidden = false;
+        }
+      }
+    })();
+  </script>
 </body>
 </html>
 
