@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family: 'Palatino',  system-ui, -apple-system, serif;
+  font-family: 'Palatino', system-ui, -apple-system, serif;
   background: radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.12), transparent 35%), radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.1), transparent 25%), var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -433,3 +433,11 @@ h3 {
   }
 }
 
+.project__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}

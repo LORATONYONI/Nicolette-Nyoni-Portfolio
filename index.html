@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicolette Lorato Nyoni | Data Scientist Portfolio</title>
+  <title>Nicolette Lorato Nyoni | Data Analyst |Engineer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="topbar">
-    <div class="logo">Nicolette Nyoni </div>
+    <div class="logo">Nicolette L Nyoni </div>
     <nav class="nav">
       <a href="#home">Home</a>
       <a href="#portfolio">Portfolio</a>
@@ -31,23 +33,26 @@
         <h1>Hi, I'm <span class="highlight">Nicolette Lorato Nyoni</span></h1>
         <p class="lead">
           I turn complex datasets into clear, actionable insights.
-          From predictive models to business intelligence dashboards, I help teams make confident, data-driven decisions.
+          From predictive models to data pipelines to business intelligence dashboards, I help teams make confident,
+          data-driven
+          decisions.
         </p>
         <div class="hero__actions">
           <a class="btn primary" href="#portfolio">View my work</a>
           <a class="btn ghost" href="#contact">Get in touch</a>
-          <a class="btn text" href="Nicolette_Nyoni_Resume.pdf" download aria-label="Download resume">Download resume</a>
+          <a class="btn text" href="#contact">Request
+            resume</a>
         </div>
         <div class="hero__meta">
           <span>Based in Harare, Zimbabwe ·Open to Remote Work· Relocation Ready</span>
-          <span>Available for data analytics, engineering, science, and AI projects</span>
+          <span>Available for data analytics, engineering, and science projects</span>
         </div>
       </div>
       <div class="hero__card">
         <p class="eyebrow">Quick snapshot</p>
         <ul>
-          <li><strong>Specialties:</strong> Predictive modeling, BI dashboards</li>
-          <li><strong>Toolbox:</strong> Python, SQL, Power BI, Tableau, Excel</li>
+          <li><strong>Specialties:</strong> Predictive modeling, BI dashboards, Data pipelines</li>
+          <li><strong>Toolbox:</strong> Python, SQL, Power BI, Tableau, Excel, DAX</li>
           <li><strong>Industries:</strong> Finance, real estate, telecommunications, mining, retail, healthcare, </li>
         </ul>
       </div>
@@ -63,55 +68,49 @@
       </div>
       <div class="grid projects">
         <article class="card">
-          <div class="pill">Power BI · Data Modeling</div>
-          <h3>Insurance Profitability Explorer</h3>
-          <p>Interactive BI dashboard surfacing margin drivers by product, underwriter, and channel to guide pricing and portfolio strategy.</p>
+          <img src="PBI.jpeg" alt="Uk Retail Sales Performance Dashboard" class="project__image">
+          <div class="pill">Python · DAX · Power BI · Excel</div>
+          <h3>UK Retail Sales Performance Dashboard</h3>
+          <p>Interactive Power BI dashboard showing revenue trends with a 3-month forecast, order volume, inflation
+            impact, and holiday vs. non-holiday performance.</p>
           <div class="tags">
-            <span>Power BI</span><span>DAX</span><span>Data Viz</span>
+            <span>Python</span><span>DAX</span><span>Power BI</span><span>Excel</span>
           </div>
           <div class="links">
-            <a href="#" aria-label="Live dashboard link placeholder">Live dashboard</a>
-            <a href="#" aria-label="Case study link placeholder">Read case study</a>
+            <a href="https://github.com/LORATONYONI/retail-sales-performance-seasonal-impact." target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+            <a href="https://medium.com/@loratonicolettenyoni/a37b4897fa54" target="_blank"
+              rel="noopener noreferrer">Read article</a>
           </div>
         </article>
 
         <article class="card">
-          <div class="pill">Python · SQL · Tableau</div>
-          <h3>USA Flight Delay & Cancellation Analysis</h3>
-          <p>Explored on-time performance to uncover delay patterns, seasonal spikes, and carrier-level risk, enabling proactive capacity planning.</p>
+          <img src="DBSCAN.jpeg" alt="Mobile-based Crime Hotspot Mapping and Alert System" class="project__image">
+          <div class="pill">DBSCAN · Python · Firebase · Ionic React</div>
+          <h3>Mobile Crime Hotspot Mapping & Alert System</h3>
+          <p>Cross-platform mobile app for Bulawayo using DBSCAN for hotspot identification, Google Maps API for
+            visualization, and real-time geofencing alerts.</p>
           <div class="tags">
-            <span>Pandas</span><span>SQL</span><span>Tableau</span>
+            <span>DBSCAN</span><span>Python</span><span>Firebase</span><span>Ionic React</span>
           </div>
           <div class="links">
-            <a href="#" aria-label="Project repository link placeholder">View project</a>
-            <a href="#" aria-label="Article link placeholder">Read article</a>
+            <a href="https://github.com/LORATONYONI/Alert-Armor" target="_blank" rel="noopener noreferrer">GitHub
+            </a>
+            <a href="https://medium.com/@loratonicolettenyoni/0d4126ad573f" target="_blank"
+              rel="noopener noreferrer">Read article</a>
           </div>
         </article>
 
         <article class="card">
-          <div class="pill">NLP · Hugging Face</div>
-          <h3>Airline Tweet Sentiment (DistilBERT)</h3>
-          <p>Fine-tuned a lightweight transformer with a Gradio app to classify sentiment in real time, improving CX triage for airline support.</p>
-          <div class="tags">
-            <span>Transformers</span><span>Gradio</span><span>Deployment</span>
-          </div>
-          <div class="links">
-            <a href="#" aria-label="Live demo link placeholder">Live demo</a>
-            <a href="#" aria-label="Article link placeholder">Read article</a>
-          </div>
-        </article>
 
-        <article class="card">
-          <div class="pill">Machine Learning · Predictive</div>
-          <h3>Predictive Maintenance for Machinery</h3>
-          <p>Built ensemble models on sensor data to forecast failures, reducing downtime and optimizing maintenance windows.</p>
+          <div class="pill">MQL · DAX · Python · Power BI</div>
+          <h3>Home Snappers Shoot Performance Dashboard</h3>
+          <p>Analyzed shoot trends by year and photographer performance. Built MongoDB pipelines to extract data and
+            visualized shoot status, cancellations, and daily completion rates.</p>
           <div class="tags">
-            <span>scikit-learn</span><span>SMOTE</span><span>Evaluation</span>
+            <span>MQL</span><span>DAX</span><span>Python</span><span>Power BI</span>
           </div>
-          <div class="links">
-            <a href="#" aria-label="Project repository link placeholder">View project</a>
-            <a href="#" aria-label="Article link placeholder">Read article</a>
-          </div>
+
         </article>
       </div>
     </section>
@@ -123,11 +122,13 @@
           <img class="about__photo" src="portrait.jpg" alt="Portrait of Nicolette Lorato Nyoni">
           <h2>I make data usable, understandable, and trustworthy.</h2>
           <p>
-            I partner with teams to design pipelines, build models, and communicate insights that drive action. Whether it's wrangling messy data, prototyping a new ML solution, or crafting clear dashboards, I keep the focus on decisions and impact.
+            I partner with teams to design pipelines, build models, and communicate insights that drive action. Whether
+            it's wrangling messy data, prototyping a new ML solution, or crafting clear dashboards, I keep the focus on
+            decisions and impact.
           </p>
         </div>
         <div class="card inset">
-          
+
           <h3>What you can expect</h3>
           <ul>
             <li>Structured problem framing and crisp scoping</li>
@@ -147,10 +148,12 @@
           <div class="pill">Sept 2023 – Present</div>
           <h3>Data Analyst · Home Snappers, Texas, USA - Remote</h3>
           <ul>
-            <li>Extracted 10,000 booking records from Supabase, analyzing service pricing and engagement across 4 units.</li>
+            <li>Extracted 10,000 booking records from Supabase, analyzing service pricing and engagement across 4 units.
+            </li>
             <li>Cleaned multi-source data in Excel/Python, reducing errors by 40% and standardizing contacts.</li>
             <li>Built Power BI revenue and service trend dashboards, cutting reporting time by 50%.</li>
-            <li>Integrated Supabase and Excel with Power BI, enabling real-time refresh and improving efficiency by 45%.</li>
+            <li>Integrated Supabase and Excel with Power BI, enabling real-time refresh and improving efficiency by 45%.
+            </li>
             <li>Applied statistical models on 25,000+ records, forecasting revenue with 92% accuracy.</li>
           </ul>
         </div>
@@ -158,13 +161,16 @@
           <div class="pill">Sept 2022 – Aug 2023</div>
           <h3>Data Analytics Intern · Home Snappers, Texas, USA - Remote</h3>
           <ul>
-            <li>Performed data wrangling with Excel and Mongo Charts, boosting workflow efficiency by 30% across 3 departments.</li>
-            <li>Built an interactive Power BI dashboard analyzing 5 years of shoot trends, improving resource allocation by 15%.</li>
+            <li>Performed data wrangling with Excel and Mongo Charts, boosting workflow efficiency by 30% across 3
+              departments.</li>
+            <li>Built an interactive Power BI dashboard analyzing 5 years of shoot trends, improving resource allocation
+              by 15%.</li>
             <li>Designed a Power BI customer metrics dashboard, streamlining reporting and reducing meeting times.</li>
-            <li>Developed a Python dashboard for revenue and shoot projections, enhancing forecasting accuracy by 10%.</li>
+            <li>Developed a Python dashboard for revenue and shoot projections, enhancing forecasting accuracy by 10%.
+            </li>
           </ul>
         </div>
-      
+
       </div>
     </section>
 
@@ -180,7 +186,7 @@
             <p>National University of Science and Technology - Graduated Nov 2024</p>
           </div>
         </div>
-        
+
       </div>
     </section>
 
@@ -189,12 +195,14 @@
         <div>
           <p class="eyebrow">Certifications</p>
           <h2>Credentials that keep my skills current</h2>
-            <div class="card inset">
-              <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
-              <p>
-                <a href="https://learn.microsoft.com/en-au/users/nicoletteloratonyoni-5446/credentials/6721576ec2997f0e" aria-label="View Microsoft Certified: Power BI Data Analyst Associate certificate" target="_blank" rel="noopener noreferrer">View certificate</a> · Year attained: Sept 2025
-              </p>
-            </div>
+          <div class="card inset">
+            <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
+            <p>
+              <a href="https://learn.microsoft.com/en-au/users/nicoletteloratonyoni-5446/credentials/6721576ec2997f0e"
+                aria-label="View Microsoft Certified: Power BI Data Analyst Associate certificate" target="_blank"
+                rel="noopener noreferrer">View certificate</a> · Year attained: Sept 2025
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -203,7 +211,13 @@
       <p class="eyebrow">Skills & Toolkit</p>
       <h2>Tools and methods I use to deliver results</h2>
       <div class="tags large">
-        <span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Machine Learning</span><span>Predictive Modeling</span><span>Data Wrangling</span><span>Data Visualization</span><span>Data Engineering</span><span>Mongo DB</span><span>Excel</span><span>ETL</span><span>PostgreSQL</span><span>Data Modeling</span><span>Business Intelligence</span><span>Customer Insights</span><span>Time Series</span><span>Pandas</span><span>scikit-learn</span><span>Apache Spark</span><span>OpenAI</span><span>Supabase</span><span>Git</span>
+        <span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Machine
+          Learning</span><span>Predictive Modeling</span><span>Data Wrangling</span><span>Data
+          Visualization</span><span>Data Engineering</span><span>Mongo
+          DB</span><span>Excel</span><span>ETL</span><span>PostgreSQL</span><span>Data Modeling</span><span>Business
+          Intelligence</span><span>Customer Insights</span><span>Time
+          Series</span><span>Pandas</span><span>scikit-learn</span><span>Apache
+          Spark</span><span>OpenAI</span><span>Supabase</span><span>Git</span>
       </div>
     </section>
 
@@ -212,7 +226,8 @@
         <div>
           <p class="eyebrow">Get in touch</p>
           <h2>Let’s build something data-driven together</h2>
-          <p>Tell me about your project, the decisions you need to make, and the outcomes you want. I’ll follow up with next steps and a suggested approach.</p>
+          <p>Tell me about your project, the decisions you need to make, and the outcomes you want. I’ll follow up with
+            next steps and a suggested approach.</p>
           <div class="contact__meta">
             <span>Email: <a href="mailto:hello@example.com">loratonicolettenyoni@gmail.com</a></span>
             <span>Location: Harare · Open to remote work · Relocation Ready </span>
@@ -221,7 +236,8 @@
         <form class="card form" action="https://formsubmit.co/c464bc402e0891f499b090e7dcbcb9a9" method="POST">
           <input type="hidden" name="_subject" value="New portfolio message">
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://loratonyoni.github.io/Nicolette-Nyoni-Portfolio/index.html?submitted=1">
+          <input type="hidden" name="_next"
+            value="https://loratonyoni.github.io/Nicolette-Nyoni-Portfolio/index.html?submitted=1">
           <label>
             Full name
             <input type="text" name="name" placeholder="Your name" required>
@@ -235,7 +251,7 @@
             <textarea name="message" rows="4" placeholder="What would you like to build?" required></textarea>
           </label>
           <button class="btn primary" type="submit">Send message</button>
-          <p class="form__note">Powered by FormSubmit — messages go directly to my inbox.</p>
+          <p class="form__note">Messages go directly to my inbox.</p>
           <div id="form-success" class="alert success" role="status" aria-live="polite" hidden>
             Thank you! Your message has been sent to Nicolette Lorato Nyoni.
           </div>
@@ -245,19 +261,31 @@
   </main>
 
   <footer class="footer">
-    <p>© 2025 Nicolette Lorato Nyoni</p>
+    <p>© 2026 Nicolette Lorato Nyoni</p>
     <div class="footer__links">
       <a href="#home" class="icon-link" aria-label="Back to top">
         <span aria-hidden="true">↑</span>
       </a>
-      <a href="http://www.linkedin.com/in/nicolette-lorato-nyoni-34370420a" class="icon-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
-        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8h4.52v16H.24zM8.62 8h4.33v2.18h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V24h-4.7v-7.62c0-1.82-.03-4.16-2.54-4.16-2.54 0-2.93 1.98-2.93 4.02V24H8.62z"/></svg>
+      <a href="http://www.linkedin.com/in/nicolette-lorato-nyoni-34370420a" class="icon-link"
+        aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path
+            d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8h4.52v16H.24zM8.62 8h4.33v2.18h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V24h-4.7v-7.62c0-1.82-.03-4.16-2.54-4.16-2.54 0-2.93 1.98-2.93 4.02V24H8.62z" />
+        </svg>
       </a>
-      <a href="https://github.com/LORATONYONI" class="icon-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
-        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.27-5.23-5.65 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.79 0c2.2-1.48 3.17-1.17 3.17-1.17.63 1.57.23 2.73.11 3.02.74.8 1.19 1.82 1.19 3.07 0 4.39-2.69 5.36-5.25 5.64.42.36.8 1.08.8 2.19 0 1.58-.02 2.85-.02 3.24 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+      <a href="https://github.com/LORATONYONI" class="icon-link" aria-label="GitHub profile" target="_blank"
+        rel="noopener noreferrer">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path
+            d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.27-5.23-5.65 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.79 0c2.2-1.48 3.17-1.17 3.17-1.17.63 1.57.23 2.73.11 3.02.74.8 1.19 1.82 1.19 3.07 0 4.39-2.69 5.36-5.25 5.64.42.36.8 1.08.8 2.19 0 1.58-.02 2.85-.02 3.24 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+        </svg>
       </a>
-      <a href="https://medium.com/@loratonicolettenyoni" class="icon-link" aria-label="Medium profile" target="_blank" rel="noopener noreferrer">
-        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2 6.5c0-.28.11-.54.3-.73L5.6 2.9V2.5H0v.4l2.6 3.8v9.6L0 20.5v.4h6v-.4L3.4 16V7.6l4.6 13.3h.5l3.9-13.3v10.9l-1.6 1.9v.4H16v-.4l-1.6-1.9V5l1.6-1.9V2.5h-4.9l-3.1 10.9L4.6 2.5H2v4z"/></svg>
+      <a href="https://medium.com/@loratonicolettenyoni" class="icon-link" aria-label="Medium profile" target="_blank"
+        rel="noopener noreferrer">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path
+            d="M2 6.5c0-.28.11-.54.3-.73L5.6 2.9V2.5H0v.4l2.6 3.8v9.6L0 20.5v.4h6v-.4L3.4 16V7.6l4.6 13.3h.5l3.9-13.3v10.9l-1.6 1.9v.4H16v-.4l-1.6-1.9V5l1.6-1.9V2.5h-4.9l-3.1 10.9L4.6 2.5H2v4z" />
+        </svg>
       </a>
     </div>
   </footer>
@@ -273,5 +301,5 @@
     })();
   </script>
 </body>
-</html>
 
+</html>
