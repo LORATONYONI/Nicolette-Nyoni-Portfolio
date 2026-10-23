@@ -211,6 +211,19 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.grid.skills {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 20px;
+}
+
+.grid.skills h3 {
+  font-size: 16px;
+}
+
+.grid.skills .tags {
+  margin-top: 0;
+}
+
 .grid.two {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;

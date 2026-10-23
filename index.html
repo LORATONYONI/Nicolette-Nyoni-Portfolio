@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicolette Lorato Nyoni | Data Analyst |Engineer Portfolio</title>
+  <title>Nicolette Lorato Nyoni | Data Engineer Portfolio</title>
+  <meta name="description"
+    content="Nicolette Lorato Nyoni, AWS Certified Data Engineer building production data pipelines, streaming feeds, and cloud data platforms across fintech, finance, and insurtech.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,13 +32,11 @@
   <main>
     <section id="home" class="hero">
       <div class="hero__content">
-        <p class="eyebrow">Data Analyst | Data Engineer </p>
+        <p class="eyebrow">Data Engineer · AWS Certified</p>
         <h1>Hi, I'm <span class="highlight">Nicolette Lorato Nyoni</span></h1>
         <p class="lead">
-          I turn complex datasets into clear, actionable insights.
-          From predictive models to data pipelines to business intelligence dashboards, I help teams make confident,
-          data-driven
-          decisions.
+          I design, build, and run production data pipelines, streaming feeds, and cloud data platforms, turning raw
+          data from many sources into reliable, well-documented datasets that analytics and AI teams can trust.
         </p>
         <div class="hero__actions">
           <a class="btn primary" href="#portfolio">View my work</a>
@@ -44,16 +45,19 @@
             resume</a>
         </div>
         <div class="hero__meta">
-          <span>Based in Harare, Zimbabwe ·Open to Remote Work· Relocation Ready</span>
-          <span>Available for data analytics, engineering, and science projects</span>
+          <span>Based in Harare, Zimbabwe · Open to remote work · Relocation ready</span>
+          <span>Available for data engineering, data platform, and pipeline projects</span>
         </div>
       </div>
       <div class="hero__card">
         <p class="eyebrow">Quick snapshot</p>
         <ul>
-          <li><strong>Specialties:</strong> Predictive modeling, BI dashboards, Data pipelines</li>
-          <li><strong>Toolbox:</strong> Python, SQL, Power BI, Tableau, Excel, DAX</li>
-          <li><strong>Industries:</strong> Finance, real estate, telecommunications, mining, retail, healthcare, </li>
+          <li><strong>Specialties:</strong> Batch and streaming pipelines, lakehouse migrations, data quality and
+            reconciliation</li>
+          <li><strong>Toolbox:</strong> Python, SQL, Apache Spark, Kafka, NiFi, Hive/Impala, Iceberg, AWS</li>
+          <li><strong>Industries:</strong> Fintech, telecommunications, insurtech, finance, real estate, retail</li>
+          <li><strong>Currently:</strong> MSc in Big Data, researching graph neural networks for anti-money laundering
+          </li>
         </ul>
       </div>
     </section>
@@ -62,11 +66,45 @@
       <div class="section__header">
         <div>
           <p class="eyebrow">Projects</p>
-          <h2>Recent work that blends analytics and storytelling</h2>
+          <h2>Pipelines, models, and dashboards I've built</h2>
         </div>
         <a class="btn ghost" href="#contact">Request a walkthrough</a>
       </div>
       <div class="grid projects">
+        <article class="card">
+          <img src="DBSCAN.jpeg" alt="Mobile-based Crime Hotspot Mapping and Alert System" class="project__image">
+          <div class="pill">Python · scikit-learn · Firebase · Ionic React</div>
+          <h3>Mobile Crime Hotspot Mapping & Alert System</h3>
+          <p>Cross-platform mobile app that warns users near high-crime areas in Bulawayo. A Python pipeline ingests
+            10,000+ historical crime records and clusters them with DBSCAN into high-risk zones with 95% accuracy,
+            backed by real-time Firebase geofencing alerts and Google Maps visualisation.</p>
+          <div class="tags">
+            <span>DBSCAN</span><span>Python</span><span>scikit-learn</span><span>Firebase</span><span>Ionic React</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/LORATONYONI/Alert-Armor" target="_blank" rel="noopener noreferrer">GitHub
+            </a>
+            <a href="https://medium.com/@loratonicolettenyoni/0d4126ad573f" target="_blank"
+              rel="noopener noreferrer">Read article</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <!-- <img src="APP.jpeg" alt="Home Snappers Shoot Performance Dashboard" class="project__image"> -->
+          <div class="pill">MongoDB · Supabase · Python · DAX · Power BI</div>
+          <h3>Home Snappers Shoot Performance Dashboard</h3>
+          <p>Moved 30,000+ shoot records from MongoDB into Supabase and automated KPI calculations in Python and DAX,
+            cutting manual reporting by 55–70%. Analysis of shoot trends and cancellations drove scheduling changes
+            that cut cancellations by 15% and raised completion rates by 22%.</p>
+          <div class="tags">
+            <span>MQL</span><span>MongoDB</span><span>Supabase</span><span>Python</span><span>DAX</span><span>Power
+              BI</span>
+          </div>
+          <!-- <div class="links">
+            <a href="#" aria-label="Project link placeholder">View project</a>
+          </div> -->
+        </article>
+
         <article class="card">
           <img src="PBI.jpeg" alt="Uk Retail Sales Performance Dashboard" class="project__image">
           <div class="pill">Python · DAX · Power BI · Excel</div>
@@ -82,37 +120,6 @@
             <a href="https://medium.com/@loratonicolettenyoni/a37b4897fa54" target="_blank"
               rel="noopener noreferrer">Read article</a>
           </div>
-        </article>
-
-        <article class="card">
-          <img src="DBSCAN.jpeg" alt="Mobile-based Crime Hotspot Mapping and Alert System" class="project__image">
-          <div class="pill">DBSCAN · Python · Firebase · Ionic React</div>
-          <h3>Mobile Crime Hotspot Mapping & Alert System</h3>
-          <p>Cross-platform mobile app for Bulawayo using DBSCAN for hotspot identification, Google Maps API for
-            visualization, and real-time geofencing alerts.</p>
-          <div class="tags">
-            <span>DBSCAN</span><span>Python</span><span>Firebase</span><span>Ionic React</span>
-          </div>
-          <div class="links">
-            <a href="https://github.com/LORATONYONI/Alert-Armor" target="_blank" rel="noopener noreferrer">GitHub
-            </a>
-            <a href="https://medium.com/@loratonicolettenyoni/0d4126ad573f" target="_blank"
-              rel="noopener noreferrer">Read article</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <!-- <img src="APP.jpeg" alt="Home Snappers Shoot Performance Dashboard" class="project__image"> -->
-          <div class="pill">MQL · DAX · Python · Power BI</div>
-          <h3>Home Snappers Shoot Performance Dashboard</h3>
-          <p>Analyzed shoot trends by year and photographer performance. Built MongoDB pipelines to extract data and
-            visualized shoot status, cancellations, and daily completion rates.</p>
-          <div class="tags">
-            <span>MQL</span><span>DAX</span><span>Python</span><span>Power BI</span>
-          </div>
-          <!-- <div class="links">
-            <a href="#" aria-label="Project link placeholder">View project</a>
-          </div> -->
         </article>
 
         <article class="card">
@@ -140,21 +147,22 @@
         <div>
           <p class="eyebrow">About</p>
           <img class="about__photo" src="portrait.jpg" alt="Portrait of Nicolette Lorato Nyoni">
-          <h2>I make data usable, understandable, and trustworthy.</h2>
+          <h2>I build data pipelines that teams can trust.</h2>
           <p>
-            I partner with teams to design pipelines, build models, and communicate insights that drive action. Whether
-            it's wrangling messy data, prototyping a new ML solution, or crafting clear dashboards, I keep the focus on
-            decisions and impact.
+            I design and run the pipelines behind production analytics and AI: ingesting from SFTP, Oracle, Kafka, and
+            SaaS sources, landing data in Hive, Iceberg, and AWS, and proving it is correct with reconciliation and
+            checksum checks. I came to engineering through analytics, so I build with the people downstream in mind:
+            the analyst, the dashboard, or the fraud model that needs the data on time and right.
           </p>
         </div>
         <div class="card inset">
 
           <h3>What you can expect</h3>
           <ul>
-            <li>Structured problem framing and crisp scoping</li>
-            <li>Well-documented notebooks, reproducible pipelines</li>
-            <li>Transparent metrics and clear trade-off calls</li>
-            <li>Polished visuals for stakeholders and execs</li>
+            <li>Idempotent, duplicate-safe loads that are safe to rerun</li>
+            <li>Validation, reconciliation, and checksums built into every pipeline</li>
+            <li>Clear documentation: source-to-target mappings, backfill plans, runbooks</li>
+            <li>Plain-language updates for stakeholders and leadership</li>
           </ul>
         </div>
       </div>
@@ -162,32 +170,50 @@
 
     <section id="experience" class="section">
       <p class="eyebrow">Experience</p>
-      <h2>Hands-on roles across data engineering and analytics</h2>
+      <h2>Production data engineering across fintech, insurtech, and real estate</h2>
       <div class="timeline">
         <div class="timeline__item">
-          <div class="pill">Sept 2023 – Present</div>
-          <h3>Data Analyst · Home Snappers, Texas, USA - Remote</h3>
+          <div class="pill">July 2026 – Present</div>
+          <h3>Data Engineer · Econet AI, Harare</h3>
+          <p>Production pipelines on the Cloudera Data Platform for fintech, finance, and insurtech data.</p>
           <ul>
-            <li>Extracted 10,000 booking records from Supabase, analyzing service pricing and engagement across 4 units.
+            <li>Built the EcoCash Fraud Management System's hourly transaction, KYC, and float feeds for 15,000+ agents
+              with Apache NiFi, Hive, and Impala.</li>
+            <li>Designed the data architecture and data dictionary for a fraud-detection proof of concept across 7 data
+              domains.</li>
+            <li>Profiled the SmartCare Apache Kafka topics, which carry 2.4 billion events a day.</li>
+            <li>Automated the daily Day-end Oracle-to-Hive payment loads with Kerberos-secured Apache Sqoop, Bash, and
+              cron.</li>
+            <li>Built the iExpense pipeline from Oracle E-Business Suite into a partitioned Hive table with Apache Spark.
             </li>
-            <li>Cleaned multi-source data in Excel/Python, reducing errors by 40% and standardizing contacts.</li>
-            <li>Built Power BI revenue and service trend dashboards, cutting reporting time by 50%.</li>
-            <li>Integrated Supabase and Excel with Power BI, enabling real-time refresh and improving efficiency by 45%.
+            <li>Built the Ecosure claims pipeline in Apache NiFi with an Iceberg MERGE in Impala, cutting merge time from
+              22 minutes to under 1.</li>
+            <li>Loaded OpManager REST API endpoints into 7 Apache Iceberg tables with Python on Cloudera Machine Learning.
             </li>
-            <li>Applied statistical models on 25,000+ records, forecasting revenue with 92% accuracy.</li>
+            <li>Rebuilt the network failure-reason (CEM) pipelines for 780 million rows a day with Kafka, Cloudera
+              Machine Learning, and NiFi.</li>
+            <li>Migrated 13 billion rows from Hive to Apache Iceberg with checksum validation.</li>
+            <li>Wrote the source-to-target mappings, backfill plans, and runbooks for the fraud system.</li>
+          </ul>
+        </div>
+        <div class="timeline__item">
+          <div class="pill">Sept 2023 – Present</div>
+          <h3>Data Analyst | Data Engineer · Home Snappers, Texas, USA - Remote</h3>
+          <ul>
+            <li>Built Python and SQL pipelines loading 10,000+ records a month into an AWS S3 data lake.</li>
+            <li>Built AWS Glue and Pandas ETL workflows, cutting data errors by 40%.</li>
+            <li>Designed Redshift dimensional models serving Power BI for 4 departments.</li>
+            <li>Optimised SQL and Glue jobs, reducing manual data handling by 50%.</li>
+            <li>Added validation and reconciliation checks to keep pipeline data accurate.</li>
           </ul>
         </div>
         <div class="timeline__item">
           <div class="pill">Sept 2022 – Aug 2023</div>
           <h3>Data Analytics Intern · Home Snappers, Texas, USA - Remote</h3>
           <ul>
-            <li>Performed data wrangling with Excel and Mongo Charts, boosting workflow efficiency by 30% across 3
-              departments.</li>
-            <li>Built an interactive Power BI dashboard analyzing 5 years of shoot trends, improving resource allocation
-              by 15%.</li>
-            <li>Designed a Power BI customer metrics dashboard, streamlining reporting and reducing meeting times.</li>
-            <li>Developed a Python dashboard for revenue and shoot projections, enhancing forecasting accuracy by 10%.
-            </li>
+            <li>Built a Python forecasting dashboard, improving accuracy by 10%.</li>
+            <li>Built a Power BI dashboard of 5 years of shoot trends, improving resource allocation by 15%.</li>
+            <li>Wrangled 10,000+ records in Excel and Mongo Charts, improving efficiency by 30%.</li>
           </ul>
         </div>
 
@@ -198,12 +224,15 @@
       <div class="grid two">
         <div>
           <p class="eyebrow">Education</p>
-          <h2>Academic foundation in data analytics and engineering</h2>
+          <h2>Academic foundation in big data and machine learning</h2>
           <div class="card inset">
             <h3>MSc Big Data</h3>
-            <p>National University of Science and Technology, Zimbabwe - Expected Nov 2027</p>
-            <h3>BSc. (Hons) Informatics</h3>
-            <p>National University of Science and Technology - Graduated Nov 2024</p>
+            <p>National University of Science and Technology, Zimbabwe - Expected Nov 2027<br>
+              Research: graph neural networks (GCN, GAT) in PyTorch vs XGBoost and Random Forest for anti-money
+              laundering.</p>
+            <h3>BSc. (Hons) Informatics, Degree Class 1</h3>
+            <p>National University of Science and Technology - Graduated Nov 2024<br>
+              Awarded the Best Graduating Student in the Department Prize.</p>
           </div>
         </div>
 
@@ -228,6 +257,8 @@
                 aria-label="View Microsoft Certified: Power BI Data Analyst Associate certificate" target="_blank"
                 rel="noopener noreferrer">View certificate</a> · Year attained: Sept 2025
             </p>
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p>In progress</p>
           </div>
         </div>
       </div>
@@ -236,14 +267,62 @@
     <section id="skills" class="section">
       <p class="eyebrow">Skills & Toolkit</p>
       <h2>Tools and methods I use to deliver results</h2>
-      <div class="tags large">
-        <span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Machine
-          Learning</span><span>Predictive Modeling</span><span>Data Wrangling</span><span>Data
-          Visualization</span><span>Data Engineering</span><span>Mongo
-          DB</span><span>Excel</span><span>ETL</span><span>PostgreSQL</span><span>Data Modeling</span><span>Business
-          Intelligence</span><span>Customer Insights</span><span>Time
-          Series</span><span>Pandas</span><span>scikit-learn</span><span>Apache
-          Spark</span><span>OpenAI</span><span>Supabase</span><span>Git</span>
+      <div class="grid skills">
+        <div class="card inset">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>Python</span><span>SQL (HiveQL, Impala SQL)</span><span>Bash</span><span>DAX</span><span>MQL</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Big Data & Streaming</h3>
+          <div class="tags">
+            <span>Cloudera Data Platform</span><span>Apache NiFi</span><span>Apache Kafka</span><span>Apache
+              Spark</span><span>Apache Iceberg</span><span>Hive</span><span>Impala</span><span>HDFS</span><span>YARN</span><span>Apache
+              Sqoop</span><span>Apache Ranger</span><span>Linux</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Cloud (AWS)</h3>
+          <div class="tags">
+            <span>S3</span><span>Glue</span><span>Redshift</span><span>Athena</span><span>Lambda</span><span>IAM</span><span>Lake
+              Formation</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Databases</h3>
+          <div class="tags">
+            <span>Oracle</span><span>PostgreSQL</span><span>Supabase</span><span>MongoDB</span><span>Amazon
+              Redshift</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Data Quality & Ops</h3>
+          <div class="tags">
+            <span>Reconciliation</span><span>Checksum validation</span><span>Idempotent loads</span><span>Duplicate-safe
+              loads</span><span>Backfills</span><span>Monitoring runbooks</span><span>Dimensional modelling</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>AI & Machine Learning</h3>
+          <div class="tags">
+            <span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>PyTorch</span><span>XGBoost</span><span>Graph
+              neural networks</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Data Visualisation</h3>
+          <div class="tags">
+            <span>Power BI</span><span>Matplotlib</span><span>Seaborn</span>
+          </div>
+        </div>
+        <div class="card inset">
+          <h3>Ways of Working</h3>
+          <div class="tags">
+            <span>Agile/Scrum</span><span>Jira</span><span>Confluence</span><span>Git (GitHub, GitLab)</span><span>Technical
+              documentation</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -255,7 +334,7 @@
           <p>Tell me about your project, the decisions you need to make, and the outcomes you want. I’ll follow up with
             next steps and a suggested approach.</p>
           <div class="contact__meta">
-            <span>Email: <a href="mailto:hello@example.com">loratonicolettenyoni@gmail.com</a></span>
+            <span>Email: <a href="mailto:loratonicolettenyoni@gmail.com">loratonicolettenyoni@gmail.com</a></span>
             <span>Location: Harare · Open to remote work · Relocation Ready </span>
           </div>
         </div>
